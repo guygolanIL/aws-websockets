@@ -20,7 +20,8 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    
+    - name: Build Frontend
+      run: npm run build
 
     - name: Deploy with CDK
       run: npm run cdk -- deploy

@@ -5,9 +5,7 @@
     "my-app": "bin/my-app.js"
   },
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc -w",
-    "test": "jest",
+    "build": "cd ./lib/front-end/app && npm run build",
     "cdk": "cdk",
     "lint": "eslint . --ext .ts"
   },
