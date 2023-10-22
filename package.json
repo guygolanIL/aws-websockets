@@ -6,6 +6,7 @@
   },
   "scripts": {
     "build": "cd ./lib/front-end/app && npm run build",
+    "install-frontend": "cd ./lib/front-end/app && npm install",
     "cdk": "cdk",
     "lint": "eslint . --ext .ts"
   },
